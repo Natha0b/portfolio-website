@@ -26,23 +26,25 @@ function Home() {
 
             <section className="home">
                 <div className="home-content">
-                    <h1>Hola! soy <span>Nathaly Ortiz</span></h1>
+                    <h1>Hola! Soy <span>Nathaly Ortiz</span></h1>
                     <div className="text-animate">
                         <h3>Desarrolladora de Software</h3>
                     </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, commodi ratione inventore ducimus ea laborum, facere similique unde dolor impedit explicabo minima magni, error porro deserunt eligendi.</p>
+                    <p>Soy una apasionada del desarrollo frontend, me entusiasma la creacion de interfaces web cautivadoras y funcionales. Mi objetivo es seguir explorando, mejorando e innovando la web en cada proyecto.</p>
 
-                    <div className="btn-box">
-                        <a href="#" className="btn">Mi CV</a>
+                    <div className="btn-box"><a href="public/Dev_LauraOrtizBarona_CV_SoftwareDeveloper.pdf" className="btn" download>Mi CV</a>
+                        
                         <a href="#" className="btn">Let´s Talk</a>
                     </div>
                 </div>
 
-                <div className='home-sci'>
+                <div className="home-sci">
                     <a href='#'><FaGithub /></a>
                     <a href='#'><FaLinkedin /></a>
                     <a href='#'><FaMailBulk /></a>
                 </div>
+
+                <div className="home-imgHover"></div>
             </section>
         </main>
     )
