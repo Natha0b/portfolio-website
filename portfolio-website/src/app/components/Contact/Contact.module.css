@@ -1,0 +1,49 @@
+.emailFormContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.emailFormContainer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.emailFormContainer form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.emailFormContainer form input,
+.emailFormContainer form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.emailFormContainer form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.emailFormContainer form button:hover {
+    background-color: #0056b3;
+}
+
+.emailFormContainer form input:focus,
+.emailFormContainer form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
