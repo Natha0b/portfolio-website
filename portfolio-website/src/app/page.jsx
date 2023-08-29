@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutMe from './components/About/AboutMe';
 import Home from './components/Home/Home';
-
+import Education from './components/Education/Education';
 
 
 function Page() {
@@ -9,6 +9,7 @@ function Page() {
         <div>
             <Home />
             <AboutMe />
+            <Education />
         </div>
 
 
