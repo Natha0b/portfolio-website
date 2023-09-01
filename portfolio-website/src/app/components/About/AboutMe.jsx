@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutme.css'
+import profile from './perfil.jpg'
 
 function AboutMe() {
     return (
@@ -7,7 +8,7 @@ function AboutMe() {
             <h2 className="heading">Sobre <span>Mi</span></h2>
 
             <div className="about-img">
-                <img src="https://avatars.githubusercontent.com/u/112909840?v=4" alt="Profile_Photo" />
+                <img src='https://avatars.githubusercontent.com/u/112909840?v=4' alt="Profile_Photo" />
                 <span className="circle-spin"></span>
             </div>
 

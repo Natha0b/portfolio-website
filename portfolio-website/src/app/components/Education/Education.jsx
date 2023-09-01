@@ -1,6 +1,7 @@
 import React from 'react';
 import './education.css'
 import { FaCalendarAlt } from 'react-icons/fa'
+import Carousel from '../Carousel/Carousel';
 
 function Education() {
     return (
@@ -49,7 +50,9 @@ function Education() {
                     </div>
                 </div>
             </div>
+            <Carousel />
         </section>
+
     );
 }
 

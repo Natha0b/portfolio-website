@@ -1,0 +1,29 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    height: 50%;
+}
+
+.title h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.carousel img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.carousel img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
