@@ -1,6 +1,5 @@
 import React from 'react';
 import './aboutme.css'
-import profile from './perfil.jpg'
 
 function AboutMe() {
     return (
@@ -25,9 +24,6 @@ function AboutMe() {
                     tecnológicas utilizadas en diferentes empresas, optimizar procesos y mejorar la experiencia del cliente.
                     Estoy comprometida con los estándares de calidad, la eficiencia y el cumplimiento de objetivos.
                 </p>
-                <div className='btn-box btns'>
-                    <a href="#" className='btn'>Leer Mas</a>
-                </div>
             </div>
         </section>
     );

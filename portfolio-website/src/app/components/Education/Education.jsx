@@ -50,7 +50,6 @@ function Education() {
                     </div>
                 </div>
             </div>
-            <Carousel />
         </section>
 
     );
