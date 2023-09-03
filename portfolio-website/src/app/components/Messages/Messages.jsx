@@ -37,8 +37,9 @@ function Messages() {
                     <button type='submit' className='btn'>Submit</button>
                 </div>
             </form>
-
         </section>
+        
+        
     )
 };
 
