@@ -4,7 +4,7 @@ import Projects from '../Projects/Projects';
 
 function Skills() {
     return (
-        <section className='skills'>
+        <section className='skills' id='skills'>
             <h2 className="heading">Mis <span>Proyectos</span></h2>
 
             <Projects />

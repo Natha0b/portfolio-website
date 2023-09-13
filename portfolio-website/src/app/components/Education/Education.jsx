@@ -5,7 +5,7 @@ import Carousel from '../Carousel/Carousel';
 
 function Education() {
     return (
-        <section className='education'>
+        <section className='education' id='education'>
             <h2 className='heading'>Mi <span>Trayectoria</span></h2>
             <div className="education-row">
                 <div className="education-column">
