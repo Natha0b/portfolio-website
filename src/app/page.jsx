@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
 
 function Page() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react-portfolio-website" >
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/sobre-mi" element={<AboutMe />} />
